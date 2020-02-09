@@ -1,5 +1,5 @@
-describe('Los estudiantes login', function() {
-    it('Visits los estudiantes and fails at login', function() {
+describe('Los estudiantes Funcionalidades', function() {
+    it('Visits los estudiantes, login, busqueda de profesor y filtro por materia', function() {
         cy.visit('https://losestudiantes.co')
 		cy.contains('Cerrar').click()
 		cy.contains('Ingresar').click()
